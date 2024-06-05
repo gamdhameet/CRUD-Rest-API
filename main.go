@@ -3,12 +3,11 @@ package main
 import (
 	"database/sql"
 	"encoding/json"
+	"github.com/gorilla/mux"
+	_ "github.com/lib/pq"
 	"log"
 	"net/http"
 	"os"
-
-	"github.com/gorilla/mux"
-	_ "github.com/lib/pq"
 )
 
 type User struct {
