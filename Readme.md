@@ -12,7 +12,7 @@ This is a simple CRUD (Create, Read, Update, Delete) application built with Go, 
 - [PostgreSQL](https://www.postgresql.org/download/)
 
 ## Project Structure
-
+![img.png](img.png)
 .
 ├── Dockerfile
 ├── docker-compose.yml
